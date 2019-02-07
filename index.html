@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Weekly WebDev Challenge 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+       <img src="img/logo.png" alt="Company logo" class="header__image">
+        <img src="img/brand_name1.png" alt="Company logo" class="header__image">
+    </header>
+    
+    <main>
+    
+        <!-- Register form-->
+        <div class="box">
+            <h1>Register Form</h1>
+            <div class="box__form">
+                <div class="box__container">
+                    <form class="register-form">
+                       <div class="form__input input__user">
+                           <input type="text" name="username" placeholder="Username" required>
+                       </div>
+                        
+                       <div class="form__input input__password">
+                           <input type="password" name="password" placeholder="Password" required>
+                       </div>
+                        
+                       <div class="form__input input__password">
+                           <input type="password" name="password" placeholder="Confirm password" required>
+                       </div>
+                        
+                       <div class="form__input input__email">
+                           <input type="email" placeholder="Email" required>
+                       </div>
+                       
+                       <div class="form__input input__select">
+                           <select name="location" required>
+                            <option value="" disabled selected>Your Location</option>
+ 						    <option value="warszawa">Warszawa</option>
+ 						    <option value="krakow">Kraków</option>
+ 						    <option value="gdansk">Gdańsk</option>
+ 						    <option value="poznan">Poznań</option>
+ 						    <option value="wroclaw">Wrocław</option>
+                        </select>
+                       </div> 
+                        
+                       <div class="form__checkbox-container">
+				            <label  class="form__checkbox-item" for="accept">
+								<input id="accept" type="checkbox" class="checkbox" required>I have read and accept the terms of use.
+								<span class="checkmark"></span>
+				            </label>
+                        </div>
+                       
+                       <div class="form__btn-container">
+                           <button class="btn btn--green btn--large" type="submit" name="register-submit">Sign up</button>
+                       </div>  
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Send email-->
+        
+        <div class="box">
+            <h1>Send email</h1>
+            <div class="box__form">
+                <div class="box__container">
+                    <form class="send-email">
+                        <div class="form__input input__user">
+                            <input type="text" name="username" placeholder="Your name" required>
+                        </div>
+                        
+                        <div class="form__input input__email">
+                            <input type="email" placeholder="Send email" required>
+                        </div>
+                        
+                        <div class="form__textarea">
+                            <textarea cols="30" rows="10" placeholder="Type your message" required></textarea>
+                        </div>
+                        
+                        <div class="form__checkbox-container">
+                            <label  class="form__checkbox-item" for="send">
+				                <input id="send" type="checkbox" class="checkbox" required>Send a copy to my Email
+								<span class="checkmark"></span>
+				            </label>
+				        </div>
+                        
+                        <div class="form__btn-container">
+                            <button class="btn btn--green btn--large" type="submit" name="send-submit">Send mail</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+    
+   
+       <!-- Sign in form-->
+        <div class="box">
+            <h1>Sign in form</h1>
+            <div class="box__form">
+                <div class="box__container">
+                    <form class="sign-in">
+                        <div class="form__input input__user">
+                            <input type="text" name="username" placeholder="Username" required>
+                        </div>
+                        
+                        <div class="form__input input__password">
+                            <input type="password" name="password" placeholder="Password" required>
+                        </div>
+                        <div class="form__line">
+                            <div class="form__checkbox-container">
+                            <label  class="form__checkbox-item" for="email">
+				                <input id="email" type="checkbox" class="checkbox" required>Remember me
+								<span class="checkmark"></span>
+				            </label>
+				        </div>
+                            <div class="form__btn-container">
+                                <button class="btn btn--green btn--small" type="submit" name="signin-submit">Send mail</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Recover form-->
+        <div class="box">
+            <h1>Recover Form</h1>
+            <div class="box__form">
+                <div class="box__container">
+                    <form class="recover-form">
+                        <div class="form__input input__email">
+                            <input type="email" placeholder="Enter your Email" required>
+                        </div>
+                        
+                        <div class="form__input input__phone">
+                            <input type="tel" placeholder="Enter your Phone">
+                        </div>
+                        <div class="form__line">
+                            <button class="btn btn--green btn--small btn-line" type="submit">Send</button>
+                            <button class="btn btn--green btn--small btn-line btn--disabled" type="reset" disabled>Done</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Subscribe form-->
+        <div class="box">
+            <h1>Sign in form</h1>
+            <div class="box__form">
+                <div class="box__container">
+                    <form class="subscribe-form">
+                        <div class="form__input input__email">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form__btn-container form__line">
+                           <button class="btn btn--green btn--small btn-line" type="submit">Subscribe</button>
+                           <button class="btn btn--red btn--small btn-line" type="reset">No, Thanks</button> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer-->
+        <footer class="footer">
+            <img src="img/logo-footer.png" alt="Company logo">
+        </footer>
+   
+    </main>
+
+</body>
+
+</html>
