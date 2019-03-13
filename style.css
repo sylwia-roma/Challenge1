@@ -9,14 +9,14 @@ html {
 
 body{
     background-image: url(img/background.jpg);
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
     
 }
 
 main{
-   display: -webkit-box;
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
@@ -35,7 +35,6 @@ main{
 }
 
 .box{
-    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -60,10 +59,7 @@ h1{
     text-shadow: 1px 1.732px 2px rgba(43,1,0,0.75);
     font-weight: 400;
     text-align: center;
-    
 }
-
-
 
 .btn{
     font-family: 'Titillium Web', sans-serif;
@@ -92,6 +88,7 @@ h1{
     background: linear-gradient(#f65e70, #f03747);
     box-shadow: 0 1px 0 #fff, inset 0 1px 0 #f76f7f;
 }
+
 .btn--large{
     padding: 1rem;
     font-size: 2.4rem;
@@ -126,6 +123,7 @@ h1{
     display: flex;
     flex-direction: column;
 }
+
 textarea{
     height: 23rem !important;
     margin-bottom: 1rem;
@@ -166,8 +164,6 @@ input, textarea, select{
    
 }
 
-
-
 /* CHECKBOX */
 .form__checkbox-container{
     display: block;
@@ -178,10 +174,6 @@ input, textarea, select{
     cursor: pointer;
     height: 4rem;
     padding-top: 0.5rem;
-}
-
-.form__checkbox-item{
-    
 }
 
 .form__checkbox-container input{
@@ -228,11 +220,7 @@ input, textarea, select{
 }
 
 
- 
-
-
-
-/* BOX FORM */
+ /* BOX FORM */
 .box__form{
     background-color: rgba(0,0,0,0.25);
     padding: 2rem;
@@ -252,7 +240,6 @@ input, textarea, select{
 select{
     -webkit-appearance: none;
     appearance: none;
-    
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -288,15 +275,12 @@ select{
    background: url(img/icon-location.png) no-repeat 22px 7px, url(img/pipeline.png) no-repeat 5.8rem 0.8rem;  
 }
 
-
-
 .header{
     opacity: 0.3;
     margin-top: 5.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .header__image{
@@ -316,8 +300,6 @@ main {
 	    flex-wrap: nowrap;
 	max-height: 300rem;
 	}
-    
-    
 } 
 
 @media only screen and (max-width: 480px) {
@@ -338,8 +320,6 @@ main {
     .box__form{
         width: 90%;
     }
-    
-    
     
     header img {
         width: 55%;
